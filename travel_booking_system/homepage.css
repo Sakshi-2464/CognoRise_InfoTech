@@ -1,0 +1,192 @@
+
+    @import url('https://fonts.googleapis.com/css?family=El+Messiri');
+    @import url('https://fonts.googleapis.com/css?family=Della+Respira');
+    @import url('https://fonts.googleapis.com/css?family=Preahvihear');
+    @import url('https://fonts.googleapis.com/css?family=Oxygen+Mono');
+    body{
+        background: linear-gradient(to bottom, rgb(69, 109, 143), rgb(140, 181, 197),rgb(235, 145, 54));
+    }
+    #navbar{
+    display: flex;
+    align-items: center;
+    height:40px;
+    top: 0px;
+    background-color: wheat;
+}
+#navbar ul{
+    display: flex;
+    font-family: Preahvihear,cursive;
+    color: purple;
+    margin-right: 30px;
+}
+#navbar ul li{
+    list-style-type: none;
+    font-size: 1.8rem;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+#navbar ul li a{
+    color: navy;
+    display: block;
+    margin-left: 50px;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 1.4rem;
+}
+#navbar ul li:hover{
+    color: wheat;
+    transform: rotate(5deg);
+}
+#home{
+    margin-top: 80px;
+    text-align: center;
+    font-family: "Della Respira", serif;
+    font-size: 1.5rem;
+}
+#home p,a{
+    font-size: 1.1rem;
+}
+#about p{
+    font-family: "Della Respira", serif;
+    font-size: 1.13rem;
+    margin-left: 20px;
+    margin-right: 20px;
+   }
+   
+   .destinations{      
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    }
+
+    .destinations img {
+    position: relative;
+    display: inline-block;
+    width: 270px;
+    height: 250px;
+    margin: 40px; 
+    object-fit: cover; 
+    border-radius: 7px;
+    border: 5px solid whitesmoke ;
+    }
+    .image-container {
+            position: relative;
+            margin-left: -17px;
+            margin-right: -14px;
+        }
+
+        .image {
+            width: 100%;
+            height: auto; 
+            display: block;
+        }
+
+        .text-overlay {
+          background-color: rgb(55, 96, 133);
+          height: 25px;
+          text-align: center;
+            position: absolute;
+            top: 78%;
+          left:3.4rem;
+       margin-top: 10px;
+       margin-bottom: 10px;
+            color: wheat; 
+            width: 250px;
+            font-size: 20px;
+            font-weight: bold;
+            font-family: "Della Respira", serif;
+        }
+
+        .image-container {
+      position: relative;
+      display: inline-block;
+    }
+    .content {
+      visibility: hidden;
+      width: 200px;
+      background-color: #796666;
+      color: wheat;
+      border-radius: 5px;
+      padding: 5px;
+      position: absolute;
+      top: 75%; 
+      left: 14%
+    }
+    .content1 {
+      visibility: hidden;
+      width: 200px;
+      background-color: #796666;
+      color: wheat;
+      border-radius: 5px;
+      padding: 5px;
+      position: absolute;
+      top: -10%; 
+      left: 14%;
+    }
+    .image-container:hover .content {
+      visibility: visible;
+      opacity: 1;
+      font-size: 1.1rem;
+    }
+    .image-container:hover .content1 {
+      visibility: visible;
+      opacity: 1;
+      font-size: 1.1rem;
+    }
+        h2{
+            font-family: "Della Respira", serif;
+        }
+
+        #book input{
+            width: 20%;
+            height: 30px;
+            padding: 8px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            margin-left: 50px;
+            margin-top: 10px;
+            margin-bottom: 7px;
+            font-weight: bold;
+            font-family: Preahvihear,cursive;
+        }
+        button{
+          width: 10%;
+          height: 30px;
+          border: 3px solid black;
+          border-radius: 4px;
+          margin-top: 0px;
+          margin-bottom: 5px;
+          margin-left: 50px;
+          font-size: 17px;
+          font-weight: bold;
+          font-family: "Della Respira", serif; 
+        }
+    #book p{
+    font-family: "Della Respira", serif;
+    font-size: 1.13rem;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-left: 100px;
+        }
+        #book input{
+      display: block;
+      width: 30%;
+      padding: 8px;
+      box-sizing: border-box;
+      margin-left: 50px;
+        }
+        #book select{
+      display: block;
+      width: 30%;
+      padding: 8px;
+      box-sizing: border-box;
+      margin-left: 50px;
+        }
+        #contact p{
+    font-family: "Della Respira", serif;
+    font-size: 1.13rem;
+    margin-left: 20px;
+    margin-right: 20px;
+   }

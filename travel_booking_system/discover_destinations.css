@@ -1,0 +1,102 @@
+
+    @import url('https://fonts.googleapis.com/css?family=Della+Respira');
+    @import url('https://fonts.googleapis.com/css?family=Preahvihear');
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: wheat;
+    }
+
+    .destination-container {
+      background: linear-gradient(to bottom, rgb(103, 151, 180), rgb(208, 194, 194));
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+      box-shadow: 0 0 40px rgba(16, 14, 14, 0.1);
+      border-radius: 8px;
+    }
+
+    .destination {
+      margin-bottom: 30px;
+    }
+
+    .destination img {
+      max-width: 100%;
+      border: solid rgba(0, 0, 0, 0.615);
+      border-radius: 8px;
+      margin-left: 20px;
+      margin-top: 10px;
+    }
+
+    .destination-info {
+      padding: 20px;
+    }
+
+    h2 {
+      color: #333;
+    }
+
+    p {
+      color: #666;
+    }
+    
+.destinations{      
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    }
+
+    .destinations img {
+    position: relative;
+    display: inline-block;
+    width: 270px;
+    height: 250px;
+    margin: 20px; 
+    object-fit: cover; 
+    border-radius: 7px;
+    border: 5px solid whitesmoke ;
+    }
+    .destinations img:hover {
+     transform: rotate(4deg);
+    }
+    .image-container {
+            position: relative;
+            margin-left: -17px;
+            margin-right: -14px;
+        }
+
+        .image {
+            width: 100%;
+            height: auto; 
+            display: block;
+        }
+
+        .text-overlay {
+          background-color: rgb(55, 96, 133);
+          height: 25px;
+          text-align: center;
+            position: absolute;
+            top: 78%;
+          left:1.5rem;
+       margin-top: 10px;
+       margin-bottom: 0px;
+            color: wheat; 
+            width: 270px;
+            font-size: 20px;
+            font-weight: bold;
+            font-family: "Della Respira", serif;
+        }
+        .destination-info p{
+          font-family: "Della Respira", serif;
+          font-size: 1.2rem;
+          color: navy;
+        }
+        h2{
+          font-family: Preahvihear,cursive;
+          color: navy;
+        }
+        h1{
+          font-family: "Della Respira", serif;
+        }
+  
