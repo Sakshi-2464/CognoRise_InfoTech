@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel ="stylesheet" href="to_do_list.css">
+<title>to_do_list</title>
+</head>
+<style> 
+
+body {
+  background: linear-gradient(to bottom, rgb(57, 132, 162),rgb(181, 215, 227));
+  margin: 0;
+  height: 100vh;
+}  
+</style>
+<body>
+<div class="container">
+<div id="myDIV" class="header">
+  <h2 style="margin:25px">To Do List</h2>
+  <input type="text" id="input" placeholder="New task">
+  <span onclick="newElement()" class="addBtn"><b>Add</b></span>
+</div>
+
+<ul id="myUL">
+  <li>learn new skills</li>
+  <li>get an internship</li>
+  <li>online courses</li>
+  <li>college project</li>
+  <li>assignments</li>
+</ul>
+
+<script src="to_do_list.js"></script>
+
+</body>
+</html>
